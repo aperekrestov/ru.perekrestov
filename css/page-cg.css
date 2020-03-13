@@ -1,0 +1,145 @@
+body {
+    background-color: #F9EC50;
+}
+
+.container-hat {
+    width: 100%;
+    /*height: 85%;*/
+    background-color: #000;
+}
+
+.container-page {
+    height: 100%;
+    background-color: #fff;
+}
+
+.hat-gap-bg {
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    background-color: #F9EC50;
+}
+
+.hl {
+    background-image: url(../imgs/cg/hl-cg.svg);
+    width: 372px;
+    height: 112px;
+    left: 8%;
+    top: calc(50% - 124px);
+}
+
+.info-text {
+    width: 780px;
+    height: auto;
+    left: 13%;
+    top: calc(50% + 34px);
+}
+
+/*--------------------------------------------------------------------------------------------------- RICH */
+.container-rich {
+    width: 100%;
+    background-color: #fff;
+}
+
+.container-rich-2 {
+    width: 100%;
+    background-color: #181818;
+}
+
+.container-rich-collection {
+    width: 1728px;
+    height: 1016px;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+}
+
+.rich-mockup {
+    top: -180px;
+    width: 2880px;
+    height: 1800px;
+    transform-origin: 0px 0px;
+}
+
+.rich-sl {
+    left: 13%;
+    width: 720px;
+    height: auto;
+}
+
+.rich-text {
+    left: 13%;
+    width: 700px;
+    height: auto;
+}
+
+.rich-video-container {
+    width: 1920px;
+    height: 1080px;
+    left: 10%;
+    top: 180px;
+    cursor: pointer;
+}
+
+.video-bec {
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------------- JAGUAR */
+.container-jaguar {
+    width: 100%;
+    background-color: #fff;
+}
+
+.jaguar-hl {
+    background-image: url(../imgs/cg/hl-jaguar.svg);
+    width: 249px;
+    height: 74px;
+    left: 13%;
+    top: 20%;
+}
+
+.jaguar-text {
+    width: 370px;
+    height: auto;
+    left: 13%;
+    top: calc(20% + 60px + 73px);
+}
+
+.i-pace {
+    right: 10%;
+    top: 13%;
+    cursor: pointer;
+    background-color: #D7F4FA;
+}
+
+.f-pace {
+    width: 240px;
+    height: 400px;
+    left: 53%;
+    top: 60%;
+    cursor: pointer;
+    background-color: #000;
+}
+.givenchy {
+    width: 286px;
+    height: 485px;
+    left: 22%;
+    top: 50%;
+    cursor: pointer;
+    background-color: #F5939F;
+}
+.givenchy .border{
+    width: 100%; 	height: 100%;
+    box-shadow: 0px 0px 0px 1px #fff inset;
+    pointer-events: none;
+}
+
+
+
+.container-jaguar-collection {
+    width: 2880px;
+    height: 1800px;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+}

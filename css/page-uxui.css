@@ -1,0 +1,154 @@
+body {
+    background-color: #A7BCB0;
+}
+
+.container-hat {
+    width: 100%;
+    /*height: 85%;*/
+    background-color: #000;
+}
+
+.container-page {
+    height: 100%;
+    background-color: #fff;
+}
+
+.hat-gap-bg {
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    background-color: #A7BCB0;
+}
+
+.hl {
+    background-image: url(../imgs/uxui/hl-uxui.svg);
+    width: 700px;
+    height: 124px;
+    left: 8%;
+    top: calc(50% - 124px);
+}
+
+.info-text {
+    width: 780px;
+    height: auto;
+    left: 13%;
+    top: calc(50% + 34px);
+}
+
+
+/*--------------------------------------------------------------------------------------------------- UNITE */
+.container-unite {
+    width: 100%;
+    background-color: #fff;
+}
+
+.unite-mockup {
+    width: 843px;
+    height: 1191px;
+    right: 13%;
+    top: 7%;
+    transform-origin: 100% 0%;
+}
+
+.unite-hl {
+    background-image: url(../imgs/uxui/hl-unite.svg);
+    width: 333px;
+    height: 75px;
+    left: 13%;
+    top: 250px;
+}
+
+.unite-text {
+    width: 370px;
+    height: auto;
+    left: 13%;
+    top: calc(310px + 73px);
+}
+
+.container-unite-2 {
+    width: 100%;
+    background-color: #404040;
+}
+
+.unite-video-container {
+    width: 1920px;
+    height: 1080px;
+    left: 10%;
+    top: 180px;
+    cursor: pointer;
+}
+
+.container-unite-collection {
+    width: 2880px;
+    height: 1800px;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------------------------------- ODEON */
+.container-odeon {
+    width: 100%;
+    background-color: #A7BCB0;
+    position: fixed;
+    display: none;
+}
+
+.odeon-site {
+    width: 1440px;
+    height: 7127px;
+    left: 10%;
+    top: 220px;
+    transform-origin: 0px 0px;
+}
+
+.odeon-sl {
+    width: 330px;
+    height: auto;
+    left: 68%;
+    top: 220px;
+    pointer-events: none;
+    position: fixed;
+}
+
+.odeon-text {
+    width: 30%;
+    max-width: 350px;
+    height: auto;
+    left: 68%;
+    top: calc(220px + 24px + 28px);
+    pointer-events: none;
+    position: fixed;
+}
+
+/*--------------------------------------------------------------------------------------------------- VSK */
+.container-vsk-1 {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.vsk-hl {
+    background-image: url(../imgs/uxui/hl-vsk.svg);
+    width: 568px;
+    height: 75px;
+    left: 13%;
+    top: 220px;
+}
+
+.vsk-text {
+    width: 350px;
+    height: auto;
+    left: 13%;
+    top: calc(280px + 75px);
+}
+
+.vsk-text a {
+    color: #181818;
+}
+
+.vsk-mockup {
+    width: 2880px;
+    height: 3000px;
+    top: 51px;
+    transform-origin: 0px 0px;
+}

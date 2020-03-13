@@ -1,0 +1,43 @@
+.video-poster {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.play-icon {
+    background-image: url('../imgs/player/video-icon-play.svg');
+    width: 8px;
+    height: 8px;
+    left: calc(50% - 4px);
+    top: calc(50% - 4px);
+}
+
+.pause-icon {
+    background-image: url('../imgs/player/video-icon-pause.svg');
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 8px);
+    top: calc(50% - 8px);
+}
+
+.play-pause-oval {
+    background-image: url('../imgs/player/video-icon-oval.svg');
+    width: 120px;
+    height: 120px;
+}
+
+.play-pause-btn {
+    width: 120px;
+    height: 120px;
+    left: calc(50% - 60px);
+    top: calc(50% - 60px);
+    pointer-events: none;
+}
+
+.video-play-text {
+    width: 100%;
+    height: auto;
+    top: calc(50% - 95px);
+    text-align: center;
+    pointer-events: none;
+}

@@ -1,0 +1,215 @@
+.menu-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+}
+
+.ap-area {
+    width: 50%;
+    height: 100%;
+}
+
+.menu-bg-dark {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.menu-bg-left {
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    transform-origin: 0px 0px;
+}
+.menu-bg-right {
+    width: 50%;
+    height: 100%;
+    right: 0px;
+    background-color: #000;
+    transform-origin: 0px 0px;
+}
+
+.menu {
+    background-image: url(../imgs/menu/menu.svg);
+    width: 89px;
+    height: 26px;
+    right: calc(10% - 38px - 9px);
+    top: 80px;
+    cursor: pointer;
+    position: fixed;
+    mix-blend-mode: exclusion;
+}
+
+.menu-close {
+    background-image: url(../imgs/menu/menu-close.svg);
+    width: 24px;
+    height: 24px;
+    right: 0;
+    top: 2px;
+}
+
+.about-text {
+    width: 50%;
+    height: auto;
+    right: calc(50% + 40px);
+    top: calc(50% - 110px);
+    color: #fff;
+    text-align: right;
+}
+
+.menu-buttons-block {
+    width: 300px;
+    height: 195px;
+    left: calc(50% + 40px);
+    top: calc(50% - 150px);
+}
+.menu-btn-main {
+    background-image: url(../imgs/menu/btn-main.svg);
+    width: 127px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu-btn-coding {
+    background-image: url(../imgs/menu/btn-coding.svg);
+    width: 192px;
+    height: 27px;
+    top: calc(25px + 28px + 26px + 28px);
+    cursor: pointer;
+}
+.menu-btn-uxui {
+    background-image: url(../imgs/menu/btn-uxui.svg);
+    width: 141px;
+    height: 27px;
+    top: calc(25px + 28px + 26px + 28px + 27px + 28px);
+    cursor: pointer;
+}
+.menu-btn-cg {
+    background-image: url(../imgs/menu/btn-cg.svg);
+    width: 259px;
+    height: 25px;
+    top: calc(25px + 28px);
+    cursor: pointer;
+}
+
+.icon-block {
+    width: 100px;
+    height: 20px;
+    left: calc(10% - 38px);
+    bottom: calc(10% + 80px);
+}
+.icon-f {
+    background-image: url(../imgs/menu/icon-f.svg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.icon-i {
+    background-image: url(../imgs/menu/icon-i.svg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    left: calc(50% - 10px);
+}
+.icon-s {
+    background-image: url(../imgs/menu/icon-s.svg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    right: 0px;
+}
+
+.name {
+    width: 300px;
+    height: 100px;
+    left: 8%;
+    top: 71px;
+}
+
+.alexey-perekrestov-text {
+    width: 380px;
+    height: auto;
+    color: #fff;
+    font-weight: 400;
+}
+
+.digital-artist-text {
+    width: 380px;
+    height: auto;
+    top: 40px;
+    color: #fff;
+}
+
+.contacts {
+    width: 300px;
+    height: 102px;
+    right: calc(10% - 38px);
+    bottom: calc(10% + 76px);
+}
+
+.phone-text {
+    width: 380px;
+    height: auto;
+    right: 0px;
+    bottom: calc(37px - 4px);
+    color: #fff;
+    text-align: right;
+}
+
+.email-text {
+    width: 380px;
+    height: auto;
+    right: 0px;
+    bottom: 0px;
+    color: #fff;
+    text-align: right;
+}
+
+.menu-brick-block {
+    width: 24px;
+    height: 24px;
+    right: 0px;
+    top: 2px;
+}
+
+.menu-brick {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.menu-brick-1 {
+    left: 0px;
+}
+.menu-brick-2 {
+    left: calc(50% - 2px);
+}
+.menu-brick-3 {
+    right: 0px;
+}
+.menu-brick-4 {
+    left: 0px;
+    top: calc(50% - 2px);
+}
+.menu-brick-5 {
+    left: calc(50% - 2px);
+    top: calc(50% - 2px);
+}
+.menu-brick-6 {
+    right: 0px;
+    top: calc(50% - 2px);
+}
+.menu-brick-7 {
+    left: 0;
+    bottom: 0;
+}
+.menu-brick-8 {
+    left: calc(50% - 2px);
+    bottom: 0;
+}
+.menu-brick-9 {
+    right: 0;
+    bottom: 0;
+}

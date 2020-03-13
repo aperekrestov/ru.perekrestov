@@ -1,0 +1,195 @@
+body {
+    background-color: #D7F4FA;
+}
+
+.container-hat {
+    width: 100%;
+    /*height: 85%;*/
+    background-color: #000;
+}
+
+.container-page {
+    height: 100%;
+    background-color: #fff;
+}
+
+.hat-gap-bg {
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    background-color: #D7F4FA;
+}
+
+.hl {
+    background-image: url(../imgs/coding/hl-coding.svg);
+    width: 927px;
+    height: 121px;
+    left: 8%;
+    top: calc(50% - 124px);
+}
+
+.info-text {
+    width: 780px;
+    height: auto;
+    left: 13%;
+    top: calc(50% + 34px);
+}
+
+/*--------------------------------------------------------------------------------------------------- PAUL */
+.container-paul {
+    width: 100%;
+    background-color: #fff;
+}
+
+.paul-mockup {
+    width: 2880px;
+    height: 1800px;
+    left: 10%;
+    transform-origin: 0px 0px;
+}
+
+.paul-sl {
+    left: 13%;
+    width: 330px;
+    height: auto;
+}
+
+.paul-text {
+    left: 13%;
+    width: 720px;
+    height: auto;
+}
+
+.container-paul-collection {
+    width: 2880px;
+    height: 1800px;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+}
+
+
+.container-paul-2 {
+    width: 100%;
+    background-color: #D7F4FA;
+}
+
+.paul-video-container {
+    width: 1920px;
+    height: 1080px;
+    left: 10%;
+    top: 180px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------------------------- JAGUAR */
+.container-jaguar {
+    width: 100%;
+    background-color: #fff;
+}
+
+.jaguar-mockup {
+    width: 843px;
+    height: 1191px;
+    right: 13%;
+    top: 13%;
+    transform-origin: 100% 0%;
+}
+
+.jaguar-hl {
+    background-image: url(../imgs/coding/hl-jaguar.svg);
+    width: 333px;
+    height: 75px;
+    left: 13%;
+    top: 250px;
+}
+
+.jaguar-text {
+    width: 370px;
+    height: auto;
+    left: 13%;
+    top: calc(310px + 73px);
+}
+
+.container-jaguar-2 {
+    width: 100%;
+    background-color: #181818;
+}
+
+.jaguar-video-container {
+    width: 1920px;
+    height: 1080px;
+    left: 10%;
+    top: 180px;
+    cursor: pointer;
+}
+
+.container-jaguar-collection {
+    width: 2880px;
+    height: 1800px;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------------------------------- IDOMIC */
+.container-idomic {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+.idomic-hl {
+    background-image: url(../imgs/coding/hl-idomic.svg);
+    width: 530px;
+    height: 80px;
+    left: 13%;
+    top: 220px;
+}
+
+.idomic-text {
+    width: 430px;
+    height: auto;
+    left: 13%;
+    top: calc(281px + 73px);
+}
+
+.idomic-mockup {
+    width: 2880px;
+    height: 3000px;
+    top: 281px;
+    transform-origin: 0px 0px;
+}
+
+.idomic-sl {
+    width: 50%;
+    height: auto;
+    left: 13%;
+}
+
+.idomic-text-2 {
+    width: 720px;
+    height: auto;
+    left: 13%;
+}
+
+.container-idomic-2 {
+    width: 100%;
+    background-color: #9FB9F2;
+    overflow: hidden;
+}
+
+.idomic-video-container {
+    width: 1920px;
+    height: 1080px;
+    left: 10%;
+    top: 180px;
+    cursor: pointer;
+}
+
+.container-idomic-collection {
+    width: 2880px;
+    height: 1800px;
+    transform-origin: 0px 0px;
+    overflow: hidden;
+    background: green;
+}
